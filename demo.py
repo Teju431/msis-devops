@@ -1,5 +1,3 @@
-def main():
-    print("Welcome to the MSIS DevOps Python project")
 
 
 def add(a: int, b: int) -> int:
@@ -8,6 +6,10 @@ def add(a: int, b: int) -> int:
 
 def sub(a: int, b: int) -> int:
     return a - b
+
+
+def multiply(a: int, b: int) -> int:
+    return a * b
 
 
 def divide(a: int, b: int) -> float:
