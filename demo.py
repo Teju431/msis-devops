@@ -1,5 +1,14 @@
 def main():
- print("welcome to the msis devops python project")
+    print("Welcome to the MSIS DevOps Python project")
 
-if _name_ == "+main_":
- main()
+
+def add(a: int, b: int) -> int:
+    return a + b
+
+
+def sub(a: int, b: int) -> int:
+    return a - b
+
+
+if __name__ == "__main__":
+    main()
